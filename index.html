@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic information on the information needed to view this site -->
+    <head>
+        <!-- Let the client know which charset should be used -->
+        <meta charset="utf-8">
+        
+        <!-- Used to pass view-information across different platforms -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        
+        <!-- Let's add some information for the search-engines (Meta-tags are by far not the only way to improve the searchability ^^) -->
+        <meta name="author" content="John Doe">
+        <meta name="description" content="My super awesome portfolio!">
+        <meta name="keywords" content="john doe, portfolio, bootstrap, css, js, html">
+
+        <!-- Let's give it a fancy title -->
+        <title>My Portfolio</title>
+
+        <!-- Add a favicon -->
+        <link rel="icon" type="image/png" href="img/profilePicture.png">
+
+        <!-- All stylesheets -->
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <!-- All required js -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+        <script src="index.js"></script>
+    </head>
+
+    <!-- Where we add our content -->
+    <body>
+
+        <!-- Only shown when the user has disabled javascript -->
+        <noscript>
+            Please enable javascript!
+        </noscript>
+
+        <!-- The container for the "introduction" -->
+        <header>
+            <div class="header-overlay">
+                <h2 class="header-overlay-text">John Doe</h2>
+                <h4 class="header-overlay-text">Web-Designer</h4>
+                <h5 class="header-overlay-text">Welcome to my <span id="typed">example</span> website!</h5>
+            </div>
+        </header>
+
+        <!-- Where we add the content -->
+        <div class="content" role="main">
+            
+            <!-- A tiny about box -->
+            <div class="about container">
+                
+                <!-- Let's start with a table-like structure -->
+                <div class="table">
+                    <!-- Fist row -->
+                    <div class="row">
+                        <!-- First column of first row -->
+                        <div class="col-sm-3 text-center">
+                            <!-- Let's add a profile picture -->
+                            <img class="profile-picture" src="img/profilePicture.png">
+                        </div>
+
+                        <!-- Second column of first row -->
+                        <div class="col-sm align-middle">
+                            <!-- Some short text about the author -->
+                            <p>
+                                <b>Hey!</b> Welcome to my website!<br/>
+                                My name is John Doe and this is an example of a website using bootstrap to<br/>
+                                create a basic portfolio.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Second row -->
+                    <div class="row">
+                        <!-- First column of second row -->
+                        <div class="col-sm align-top">
+                            <h4>About me</h4>
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                            dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+                            clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                            consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
+                            diam voluptua.
+                        </div>
+                    
+                        <!-- Second column of second row -->
+                        <div class="col-sm align-top">
+                            <h4>Skills</h4>
+                            <span class="badge badge-dark">CSS</span>
+                            <span class="badge badge-dark">HTML</span>
+                            <span class="badge badge-dark">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projects placeholder -->
+            <div class="projects">
+                <div class="projects-content text-center">
+                    <h2>My Projects</h2>
+
+                    <!-- A table for the project-cards -->
+                    <div class="table">
+                        
+                        <!-- First row -->
+                        <div class="row" align="center">
+
+                            <!-- First column of first row -->
+                            <div class="col-sm alig">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="..." class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                                                content.</p>
+                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        </div>
+                                    </div>
+                            </div>
+
+                            <!-- Second column of first-row -->
+                            <div class="col-sm">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="..." class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                                                content.</p>
+                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        </div>
+                                    </div>
+                            </div>
+
+                            <!-- Third column of first-row -->
+                            <div class="col-sm">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="..." class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                                                content.</p>
+                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        </div>
+                                    </div>
+                            </div>
+
+                            <!-- Fourth column of first-row -->
+                            <div class="col-sm">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="..." class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                                                content.</p>
+                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        </div>
+                                    </div>
+                            </div>    
+
+                        </tr>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Some fancy footer -->
+        <footer>
+                <div class="container">
+                    <div class="row align-middle text-center">
+                
+                        <div class="col-sm">
+                            &copy; 2019 by John Doe
+                        </div>
+                 
+                        <div class="col-sm">
+                            <a href="#" target="_blank"><img src="img/github-icon.png" height="32px" width="32px" alt="GitHub"></a>
+                
+                            <a href="#" target="_blank"><img src="img/twitter-icon.png" height="32px" width="32px" alt="Twitter"></a>
+                        </div>
+                
+                    </div>
+                </div>
+        </footer>
+
+    </body>
+
+</html>

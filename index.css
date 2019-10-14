@@ -1,0 +1,113 @@
+body {
+    /*Size*/
+    height: 100%;
+    width: 100%;
+
+    /*Remove the default margin*/
+    margin: 0 0;
+}
+
+/*
+        HEADER
+*/
+
+body header {
+    /*Size*/
+    height: 100vh;
+    width: 100vw;
+
+    /*Suppress oversize*/
+    max-width: 100%;
+    max-height: 100%;
+
+    /*Background*/
+    background: url('img/forestAndLake.jpg') no-repeat;
+    background-size: cover;
+    background-origin: content-box;
+}
+
+.header-overlay {
+    /*Add some padding*/
+    padding-left: 15px;
+    padding-top: 15px;
+
+    display: block;
+}
+
+.header-overlay h2,
+.header-overlay h4,
+.header-overlay h5 {
+    /*Give the text a contrast color*/
+    color: white;
+}
+
+/*
+        CONTENT
+*/
+.content {
+    /*Size*/
+    width: 100%;
+}
+
+    /*
+            ABOUT
+    */
+    .about .table {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .about .profile-picture {
+        /*Size*/
+        width: 128px;
+        height: 128px;
+
+        /*Make it fancy, make it round*/
+        border-radius: 50%;
+    }
+
+    .about .badge {
+        /*Make the font bigger*/
+        font-size: 15px;
+    }
+
+    /*
+            PROJECTS
+    */
+    .projects {
+        /*Size*/
+        min-height: 100vh;
+        width: 100vw;
+
+        /*Suppress oversize*/
+        max-width: 100%;
+
+        /*Background*/
+        background: url('img/polygonDeer.jpg') no-repeat;
+        background-size: cover;
+        background-origin: content-box;
+    }
+
+    .projects .projects-content {
+        display: block;
+    }
+
+    .projects .projects-content h2 {
+        color: white;
+    }
+
+    .projects .projects-content .table .row {
+        width: 100%;
+    }
+
+    .projects .projects-content .col-sm {
+        margin-bottom: 10px;
+    }
+
+/*
+        FOOTER
+*/
+footer {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
